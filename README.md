@@ -18,7 +18,7 @@ Crear un servicio que proporcione la información de los negocios por localidade
 - Pruebas unitarias 
 
 	 
-Ejemplo de consultas a resolver: 
+### Ejemplos de consultas a resolver: 
 
 - https://miapi.com/municipio/< municipio >/negocio/< tipo-negocio > 
 - https://miapi.com/municipio/colima/negocio/zapaterias 

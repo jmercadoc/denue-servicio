@@ -7,16 +7,14 @@ Crear un servicio que proporcione la información de los negocios por localidade
 ## Tareas  
 
 - Consultar la información del INEGI 
-
-- Proporcionar un endpoint donde poder consultar la información por una o varios municipios o delegaciones   
+- Proporcionar un endpoint donde poder consultar la información por una o varios municipios o delegaciones
+- Realizar fork del repositorio y solicitar pull request de la solución
  
 
 ## Opcionales
 
 - Utilizar servicios serverless
-
 - Pruebas unitarias 
-
 	 
 ### Ejemplos de consultas a resolver: 
 

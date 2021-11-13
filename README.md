@@ -20,6 +20,6 @@ Crear un servicio que proporcione la información de los negocios por localidade
 	 
 Ejemplo de consultas a resolver: 
 
-- https://miapi.com/municipio/<municipio>/negocio/<tipo-negocio> 
+- https://miapi.com/municipio/<municipio>negocio/<tipo-negocio> 
 - https://miapi.com/municipio/colima/negocio/zapaterias 
 - https://miapi.com/municipio/coyoacan/negocio/restaurantes 

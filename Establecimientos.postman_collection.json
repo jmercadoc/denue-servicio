@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "8b2f3c19-ca26-4cd2-b7b7-9031f267d8e6",
+		"name": "Establecimientos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "PorEntidad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.inegi.org.mx/app/api/denue/v1/consulta/BuscarEntidad/restaurantes/03/1/10/{{TOKEN}}",
+					"protocol": "https",
+					"host": [
+						"www",
+						"inegi",
+						"org",
+						"mx"
+					],
+					"path": [
+						"app",
+						"api",
+						"denue",
+						"v1",
+						"consulta",
+						"BuscarEntidad",
+						"restaurantes",
+						"03",
+						"1",
+						"10",
+						"{{TOKEN}}"
+					],
+					"query": [
+						{
+							"key": "Condición",
+							"value": "todos",
+							"description": "Palabra(s) a buscar dentro del nombre del establecimiento, razón social, calle, colonia, clase de la actividad económica, entidad federativa, municipio y localidad.\nPara buscar todos los establecimientos se deberá ingresar la palabra \"todos\".",
+							"disabled": true
+						},
+						{
+							"key": "Entidad federativa\n",
+							"value": null,
+							"description": "Clave de dos dígitos de la entidad federativa (01 a 32). Para incluir todas las entidades se especifica 00.",
+							"disabled": true
+						},
+						{
+							"key": "Registro inicial\n",
+							"value": null,
+							"description": "Número de registro a partir del cuál se mostrarán los resultados de la búsqueda.",
+							"disabled": true
+						},
+						{
+							"key": "Registro final",
+							"value": null,
+							"description": "Número de registro final que se mostrará en los resultados de la búsqueda.",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Giros por entidad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8080/municipio/coyoacan/negocios/zapaterias",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"municipio",
+						"coyoacan",
+						"negocios",
+						"zapaterias"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

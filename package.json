@@ -1,0 +1,27 @@
+{
+  "name": "denue-servicio",
+  "version": "1.0.0",
+  "description": "Crear un servicio que proporcione la información de los negocios por localidades (Municipio/Delegación) del  [INEGI](https://www.inegi.org.mx/servicios/api_denue.html).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jairgo/denue-servicio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jairgo/denue-servicio/issues"
+  },
+  "homepage": "https://github.com/Jairgo/denue-servicio#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "azure-function-express": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,24 @@
+Permite consultar la información de negocios de uno o varios municipios o delegaciones
+---
+tags:
+  - Business
+parameters:
+  - in: path
+    name: state
+    required: true
+  - in: path
+    name: business_type
+    required: true
+  - in: query
+    name: ubicacion
+    required: false
+    type: array
+    items:
+      type: string
+    collectionFormat: multi
+
+responses:
+  200:
+    description: Ok
+  404:
+    description: Record was not found

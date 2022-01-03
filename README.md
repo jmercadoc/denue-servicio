@@ -54,15 +54,19 @@ Nota: El servicio del INEGI podría bloquear temporalmente las peticiones si se 
 
 El servidor se ejecutará en la dirección [127.0.0.1:5000/](http://127.0.0.1:5000/).
 La raíz del proyecto / mostrará la documentación de swagger en donde se explican los parámetros necesarios y forma de utilizar el API
+![Screenshot 2022-01-02 at 20-33-27 Flasgger](https://user-images.githubusercontent.com/44456304/147899923-cba01a15-5609-4554-b8af-9f00c7970abd.png)
 
 ### Ejemplos de consultas
 - Mostrar los negocios del estado de Zacatecas 
 [127.0.0.1:5000/estados/zacatecas/negocios](http://127.0.0.1:5000/api/v1/estados/zacatecas/negocios)
+![Screenshot 2022-01-02 at 20-34-13 http 127 0 0 1 5000 api v1 estados zacatecas negocios](https://user-images.githubusercontent.com/44456304/147899940-b037dd11-660d-4f45-a7b8-cb43a260ea5c.png)
 
 - Mostrar los restaurantes del estado de Zacatecas 
 [127.0.0.1:5000/estados/zacatecas/negocios/restaurantes](http://127.0.0.1:5000/api/v1/estados/zacatecas/negocios/restaurantes)
+![Screenshot 2022-01-02 at 20-34-33 http 127 0 0 1 5000 api v1 estados zacatecas negocios restaurantes](https://user-images.githubusercontent.com/44456304/147899951-b9a1e815-7961-488c-9898-465d7b6e4ecc.png)
 
 - Mostrar los restaurantes del estado de Zacatecas en los municipios de Fresnillo y Guadalupe 
 [127.0.0.1:5000/estados/zacatecas/negocios/restaurantes?ubicacion=fresnillo&ubicacion=guadalupe](http://127.0.0.1:5000/api/v1/estados/zacatecas/negocios/restaurantes?ubicacion=fresnillo&ubicacion=guadalupe)
+![Screenshot 2022-01-02 at 20-34-54 http 127 0 0 1 5000 api v1 estados zacatecas negocios restaurantes ubicacion=fresnillo ub](https://user-images.githubusercontent.com/44456304/147899963-3911e9aa-855a-4da2-9645-e7ab019d939c.png)
 
 
